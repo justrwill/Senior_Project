@@ -1,0 +1,105 @@
+/* General Reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Dark Background */
+body {
+    background-color: #121212;
+    color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+/* Container for content */
+.container {
+    width: 90%;
+    max-width: 800px;
+    text-align: center;
+    padding: 20px;
+    background: #1e1e1e;
+    border-radius: 10px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
+}
+
+/* Upload Section */
+.upload-section {
+    margin: 20px 0;
+}
+
+input[type="file"] {
+    padding: 10px;
+    background: #333;
+    color: #f5f5f5;
+    border: 1px solid #444;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+input[type="file"]:hover {
+    background: #444;
+}
+
+/* Bubble Button */
+.bubble-button {
+    background: linear-gradient(145deg, #f06, #c00592);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.bubble-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.5);
+}
+
+.bubble-button:active {
+    transform: scale(0.95);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+/* Output Section */
+.output-section {
+    margin-top: 20px;
+}
+
+h2 {
+    color: #ffa500;
+}
+
+.output-box {
+    background: #222;
+    color: #f5f5f5;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.5);
+    max-height: 300px;
+    overflow-y: auto;
+    text-align: left;
+}
+
+/* Word Definitions Styling */
+#outputDefinitions div {
+    margin-bottom: 10px;
+    padding: 10px;
+    background: #333;
+    border-radius: 8px;
+    box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+#outputDefinitions div strong {
+    color: #ffa500;
+}

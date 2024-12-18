@@ -1,0 +1,19 @@
+
+class Main:
+
+    '''Methods/Things I need
+    '''
+
+    def parserMethod():
+        pass
+    '''Need:
+    Main App:
+    Database Builder
+    Text/Natural language handler
+    Bugs
+    '''
+class Build_DataBase_FromDict:
+    
+    def scrap_web():
+        pass
+    
